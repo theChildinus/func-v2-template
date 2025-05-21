@@ -20,6 +20,14 @@ npx tcb-ff
 
 然后通过浏览器访问 `http://localhost:3000/` 即可查看示例代码运行结果。
 
+请求子路径
+
+```sh
+curl http://localhost:3000/echo
+curl http://localhost:3000/sse
+curl http://localhost:3000/ws
+```
+
 ## 如何调试代码？
 
 示例代码中已经包含了 `VSCode` 的调试配置，可在 `Run And Debug` 界面选择 `launch-tcb-ff-local` 即可允许云函数并进行断点调试。

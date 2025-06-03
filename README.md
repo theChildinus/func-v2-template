@@ -52,7 +52,7 @@ Q：为什么 `src/ws` 等函数目录中存在 `package.json` 文件？
 
 ## 如何部署？
 
-可在云开发平台创建云函数2.0服务后上传本示例代码包进行部署。
+可在云开发平台创建 `函数型云托管` 服务后上传本示例代码包进行部署。
 
 注意：如果通过 `Github Download zip` 方式下载的代码包，因多一层目录，需要解压后重新将文件压缩到根路径后再上传，或者上传解压后的目录。
 
@@ -64,4 +64,4 @@ zip -x '/*.git/*' -x '.gitignore' -x '.DS_Store' -x 'node_modules/*' -r code.zip
 
 ## 相关链接
 
-* [腾讯云云开发-云函数2.0](https://docs.cloudbase.net/cbrf/intro)
+* [腾讯云云开发-函数型云托管](https://docs.cloudbase.net/cbrf/intro)

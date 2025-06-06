@@ -23,9 +23,12 @@ npx tcb-ff
 请求子路径
 
 ```sh
+curl http://localhost:3000/
 curl http://localhost:3000/echo
-curl http://localhost:3000/sse
+curl http://localhost:3000/log
 curl http://localhost:3000/ws
+curl http://localhost:3000/sse
+curl http://localhost:3000/sse-openai
 ```
 
 ## 如何调试代码？

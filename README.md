@@ -70,4 +70,4 @@ zip -x '/*.git/*' -x '.gitignore' -x '.DS_Store' -x 'node_modules/*' -r code.zip
 * [腾讯云云开发-函数型云托管](https://docs.cloudbase.net/cbrf/intro)
 
 
-test 222
+test 333
